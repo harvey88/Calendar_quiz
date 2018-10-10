@@ -1,0 +1,16 @@
+.squarePoint{
+    width: 3.8rem;
+    height: 3.8rem;
+    background-color: #727272;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    color: #d8d8d8;
+    border-radius: 0.5rem;
+}
+
+.bulletIcon{
+    border-radius: 1rem;
+    background-color: #ffffff;
+}

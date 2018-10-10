@@ -1,0 +1,15 @@
+.navWrapper {
+    margin-left: 3rem;
+    margin-top: 1rem;
+}
+
+.navItem {
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    border-bottom: 2px solid white;
+    padding: 0.3rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    display: inline-block;
+}

@@ -1,0 +1,44 @@
+.wrapper {
+    display: -ms-grid;
+    display: grid;
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.1);
+    height: 5rem;
+}
+.modeController{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: inherit;
+}
+.navLink {
+    font-size: 1.6rem;
+    color: #9b9b9b;
+    margin-right: 6rem;
+    font-weight: 600;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.activeNav {
+    color: #0397d6;
+}
+.iconNav{
+    fill: #9b9b9b;
+    margin-right: 0.5rem;
+}
+
+.navLink:active, .navLink:focus > .iconNav{
+    fill: #0397d6;
+}

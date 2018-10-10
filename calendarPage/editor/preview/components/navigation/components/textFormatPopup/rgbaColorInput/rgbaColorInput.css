@@ -1,0 +1,26 @@
+.inputWrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 22rem;
+}
+.coloredCircle {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+.input {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    white-space: nowrap;
+    border-bottom: solid 1px #4a4a4a;
+    cursor: pointer;
+}
+.colorPicker {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: -90%;
+}

@@ -1,0 +1,32 @@
+.playersTable{
+    /* display: flex; */
+    background: #fff;
+    margin: 5rem 12% 0;
+    padding: 2rem;
+    border-radius: 1rem
+}
+
+.headerTable{
+    display: grid;
+    grid-template-columns: 5rem 2fr 2fr 1fr 1fr;
+    width: 100%;
+    color:  #9b9b9b;
+    padding: 1.5rem;
+    border-bottom: 1px solid black;
+}
+.bodyTable{
+    display: grid;
+    grid-template-columns: 5rem 2fr 2fr 1fr 1fr;
+    width: 100%;
+    color:  #4a4a4a;
+    font-size: 1.7rem;
+    padding: 1.5rem;
+}
+
+.bodyTable:nth-child(odd) {
+    background-color: rgba(3, 151, 214, 0.1);
+}
+
+.textCenter {
+    text-align: center;
+}

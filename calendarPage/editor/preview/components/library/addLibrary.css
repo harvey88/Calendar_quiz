@@ -1,0 +1,61 @@
+.closePopup{
+    position: absolute;
+    right: 4%;
+    top: 4%;
+    cursor: pointer;
+}
+
+.wrapper{
+    height: 100%;
+    padding: 0 4rem;
+}
+
+.title{
+    color: #656565;
+    font-size: 3rem;
+    padding: 3rem 0;
+    text-align: center;
+}
+
+.textQuiz{
+    padding-top: 3rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.wrapperSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.dropdown :global .ui.dropdown .menu>.item{
+    display: flex;
+    /* grid-template-columns: 30px 1fr; */
+    /* align-items: self-end; */
+    font-size: 1.6rem;
+    padding: 1.5rem !important;
+}
+
+.wrapperInput{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.input{
+    border: none;
+}
+
+.addButton{
+    background: rgba(3, 151, 214, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+    height: 8%;
+    width: 22%;
+    position: absolute;
+    bottom: 8%;
+    left: 40%;
+    cursor: pointer;
+}

@@ -1,0 +1,43 @@
+.wrapperType{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoDefault{
+    width: 43%;
+    height: 34%;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.default{
+    background: #ededed;
+}
+.bonus{
+    background: #4a90e2;
+}
+.contest{
+    background: rgba(248, 231, 28, 0.41);
+}
+.final{
+    background: #efc0b0;
+}
+
+.wrapperText{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+.description{
+    color: #9b9b9b;
+}

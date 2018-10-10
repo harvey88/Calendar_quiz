@@ -1,0 +1,21 @@
+.wrapper{
+    padding-top: 2rem;
+}
+
+.wrapperQuestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid;
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.wrapperText{
+    display: flex;
+}
+
+.iconStyle{
+    fill: #9b9b9b;
+    margin-right: 1rem;
+}

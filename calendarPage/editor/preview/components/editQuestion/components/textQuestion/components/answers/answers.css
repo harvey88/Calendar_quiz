@@ -1,0 +1,38 @@
+.optionWrapper{
+    display: flex;
+    justify-content: normal;
+    height: 5rem;
+    border-radius: .6rem;
+    border: solid 2px #646464;
+    font-family: Overpass;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    align-items: center;
+    position: relative;
+    background-size: 4rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.optionIconWrapper{
+    /* width: 5rem;
+    height: 3.8rem;
+    background-color: #727272;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: 1rem;
+    color: #d8d8d8;
+    border-radius: 0.5rem; */
+}
+
+.option{
+    font-family: Overpass;
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 100%;
+    background: transparent;
+    border: 0;
+}

@@ -1,0 +1,11 @@
+.iconStyle {
+    fill: #9b9b9b;
+    width: 3rem;
+    height: 3rem;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}

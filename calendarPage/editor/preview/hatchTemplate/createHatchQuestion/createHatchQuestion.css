@@ -1,0 +1,12 @@
+.wrapperDropdown{
+    background: rgba(3,151,214, 0.1);
+    margin: 1rem;
+    width: 21rem;
+    padding: 1.5rem 1rem;
+    border-radius: 1rem;
+}
+
+.iconQuestionPlus{
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}

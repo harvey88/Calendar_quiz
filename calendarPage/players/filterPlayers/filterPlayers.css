@@ -1,0 +1,42 @@
+.wrapper{
+    background: rgb(255,255,255);
+    padding: 1rem 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #0397d6;
+}
+.filterButton{
+    background-color: rgba(3, 151, 214, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 1.2rem;
+    color:#0397d6;
+    font-weight: 600;
+    margin-right: 3rem;
+    font-size: 1.5rem
+    
+}
+.filterButton:hover{
+    background-color: #0397d6;
+    color: #fff;
+    cursor: pointer;
+}
+.filterButton:hover .icon {
+    fill: black;
+}
+
+.report {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.data{
+    margin-right: 3rem;
+    margin-top: 1.5rem;
+}
+
+.icon{
+    fill: #0397d6;
+    margin-right: 1rem;
+}

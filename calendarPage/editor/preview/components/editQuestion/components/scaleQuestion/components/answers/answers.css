@@ -1,0 +1,83 @@
+.wrapper {
+    margin-top: 1rem;
+}
+.values {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    /* background-color: #444444; */
+    padding: 1.5rem;
+}
+.item {
+    font-size: 1.4rem;
+    color: #9b9b9b;
+    font-weight: 600;
+    width: 22%;
+}
+.itemInput {
+    border: 0;
+    width: 100%;
+    background: transparent;
+    color: #9b9b9b;
+    font-weight: bold;
+    font-size: 2.4rem;
+    text-align: left;
+    padding: 1rem 0 .5rem 0;
+    border-bottom: 1px solid #9b9b9b;
+}
+.itemInput:focus {
+    outline-width: 0;
+}
+.inputRange {
+    margin-top: 8rem;
+}
+.inputRange :global .input-range__track {
+    background: #9b9b9b!important;
+}
+.inputRange :global .input-range__slider {
+    box-shadow: 0 3px 14px 0 rgba(255, 255, 255, 0.5);
+    background: #0397d6;
+    height: 3rem;
+    border: 0;
+    margin-left: -0.5rem;
+    margin-top: -1.65rem;
+    width: 3rem;
+}
+.inputRange :global .input-range__label-container {
+    left: 50%;
+    font-family: Overpass;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #9b9b9b;
+    top: -5rem
+}
+.inputRange :global .input-range__slider-container .input-range__label-container {
+    top: -3.6rem;
+    left: .7rem;
+}
+.inputRangeActive :global .input-range__slider-container .input-range__label-container {
+    color: transparent;
+}
+.inputRangeSelected :global .input-range__track--active{
+    /* background: #7ed321!important; */
+}
+.inputRangeSelected :global .input-range__slider{
+    background: #7ed321;
+}
+.options {
+    margin-top: 3rem;
+}
+.answerSelect {
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: 600;
+    color: #9b9b9b;
+    cursor: pointer;
+}
+.radio {
+    margin-bottom: 1.5rem;
+}
+.radio label {
+    color: #9b9b9b!important;;
+    font-weight: 600!important;
+}

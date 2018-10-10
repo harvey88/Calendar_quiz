@@ -1,0 +1,57 @@
+.wrapper {
+    width: 100%;
+    min-height: 16rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, .1);
+    margin: 1rem 0;
+    padding: 2rem;
+    display: flex;
+    position: relative;
+}
+
+.image {
+    height: 100%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, .5);
+    border-radius: 1rem;
+    max-height: 12rem;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.inputsWrapper {
+    width: 85%;
+    padding-left: 1rem;
+}
+
+.title {
+    width: 80%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: 0;
+    color: #fff;
+    font-size: 1.6rem;
+    padding: 0.5rem 0;
+    font-weight: bold;
+}
+
+.description {
+    width: 100%;
+    margin-top: 1rem;
+    background: transparent;
+    border: none;
+    outline: 0;
+    color: white;
+}
+
+.removeIcon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    fill: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
